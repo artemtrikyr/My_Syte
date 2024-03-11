@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/husll/Desktop/csharp_html_java_script/зворотній звʼязок.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="Head">
+        <img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png"
+            alt="logo">
+        <h1>Sysytem analisys</h1>
+    </header>
+
+    <div class="listMenu">
+        <div class="title">
+            <h1>System analisys</h1>
+        </div>
+        <div class="topics1">
+            <ul>
+                <p>Розділи</p>
+                <li><a href="/Users/husll/Desktop/csharp_html_java_script/Сайт1.html">Головна</a></li>
+                <li><a href="#Footer">Про нас</a></li>
+                <li><a href="#cont">Контакти</a></li>
+                <li><a href="/Users/husll/Desktop/csharp_html_java_script/пароль - реєстрація.html">Реєстрація</a></li>
+                <li><a href="/Users/husll/Desktop/csharp_html_java_script/Зворотній звʼязок.html">Зворотній звʼязок</a>
+                </li>
+            </ul>
+        </div><br>
+
+        <div class="topics2">
+            <ul type="square">
+                <p>Статті</p>
+                <li><a href="#Csharp">C#</a></li>
+                <li><a href="#HTML">HTML</a></li>
+                <li><a href="#JavaScript">Java Script</a></li>
+                <li><a href="#Python">Python</a></li>
+            </ul>
+        </div>
+        <div class="footerMenu">
+            <h5>&copy; 2024 Hald comp.</h5>
+        </div>
+
+    </div>
+    <div>
+    <h2>Зворотний зв'язок</h2>
+    <!--початок форми -->
+    <form action="/submit_feedback" method="post">
+        <!--електрона пошта -->
+  <label for="email">Ваша електронна пошта:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  
+  <label for="PhoneNum">Номер телефона:</label><br>
+  <input type="tel" id="PhoneNum" name="PhoneNum" placeholder="123-456-78-90" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required><br><br>
+  <label for="Topic">Категорія:</label><br>
+    <select id="Topic" name="Choose"> 
+        <option value="Підтримка">Підтримка</option>
+        <option value="Побажання">Побажання</option>
+        <option value="Скарга">Скарга</option>
+        <option value="Тощо">Тощо</option>
+    </select><br><br>
+  <label for="message">Повідомлення:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+  <label for="MyFile">Прикрипіть файл</label>
+  <input type="file" id="MyFile" name="MyFile"><br>
+  <form>
+    <p>Способи зворотнього звʼязку:</p><br>
+    <input type="radio" id="tel" name="Choose" value="choose">
+    <label for="tel">Телефон</label><br>
+    <input type="radio" id="email" name="Choose" value="choose">
+    <label for="email">Електрона пошта</label><br>
+  </form><br>
+
+
+  <button type="submit">Надіслати</button>
+</div>
+<footer class="Footer" , style="text-align: center;">
+
+    <h3> Коротко про нас: <br>
+        Ми — команда творчих професіоналів, що пристрасно віддані створенню інноваційних рішень. Наша натхнення
+        — у кожному виклику, який ми беремо на себе, і в кожному проєкті, який ми реалізуємо. Ми прагнемо до
+        найвищої якості і вдосконалення у всьому, що робимо. Довіртеся нам, і ми перетворимо ваші ідеї на
+        реальність.
+    </h3><br>
+
+    <p class="cont">Наші контактні дані:</p>
+    <p>Контактний номер телефону: 0998676453</p>
+    <p>Inst: @this_analiz</p>
+    <p>&copy; 2024 Hald comp.</p>
+</footer>
+    
+</body>
+</html>

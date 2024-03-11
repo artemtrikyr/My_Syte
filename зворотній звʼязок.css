@@ -1,0 +1,119 @@
+/*------Хедер------*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #81689D;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  .Head img {
+    width: 20%;
+    padding-right: 7%;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  /*------Весь текст------*/
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif
+  }
+
+  /*------Основне тіло------*/
+body {
+  
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+   
+  
+  }
+
+  /*------Весь текст------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif
+  }
+
+  /*------Навігація------*/
+.title h1{
+    font-size: 30px;
+    color: #d8deff ;
+    margin-bottom: 45px;
+  }
+  
+  .listMenu p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 20px;
+    margin-bottom: 13px;
+    color: #d8deff;
+  }
+  .listMenu a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: #d8deff;
+    padding-left: 5px;
+  }
+  
+  .listMenu li {
+    margin: 5px;
+    
+  }
+  
+  .listMenu{
+    padding: 8vh 30px;
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+    height: 100%;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(10%);
+    -webkit-backdrop-filter: blur(5px);
+    border-right: 7px solid black;
+    transition: all 0.5s ease;
+    left: -295px;
+  }
+  .listMenu:hover{
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .listMenu a:hover{
+    border-left: 3px solid rgb(58, 56, 56);
+    padding-left: 5px;
+    transition: all 0.1s ease;
+  }
+  
+  .footerMenu h5{
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+  }
+
+  
+  /*------Футер------*/
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #81689D;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  
+  .Footer p {
+    left: 0;
+    position: relative;
+  }

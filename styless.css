@@ -1,0 +1,245 @@
+/*------Хедер------*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: #81689D;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.Head img {
+  width: 20%;
+  padding-right: 7%;
+}
+
+h1 {
+  color: white;
+}
+
+/*------Весь текст------*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif
+}
+
+
+
+/*------Основне тіло------*/
+body {
+  
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+  color: white;
+
+}
+
+/*------Навігація------*/
+.title h1{
+  font-size: 30px;
+  color: #d8deff ;
+  margin-bottom: 45px;
+}
+
+.listMenu p{
+  font-family: Arial, Helvetica, sans-serif;
+  
+  font-size: 20px;
+  margin-bottom: 13px;
+  color: #d8deff;
+}
+.listMenu a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  color: #d8deff;
+  padding-left: 5px;
+}
+
+.listMenu li {
+  margin: 5px;
+  
+}
+
+.listMenu{
+  padding: 8vh 30px;
+  position: fixed;
+  background: rgba(20, 20, 20, 0.5);
+  height: 100%;
+  left: 0;
+  top: 0;
+  backdrop-filter: blur(10%);
+  -webkit-backdrop-filter: blur(5px);
+  border-right: 7px solid black;
+  transition: all 0.5s ease;
+  left: -295px;
+}
+.listMenu:hover{
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.listMenu a:hover{
+  border-left: 3px solid rgb(58, 56, 56);
+  padding-left: 5px;
+  transition: all 0.1s ease;
+}
+
+.footerMenu h5{
+  margin-top: 30px;
+  font-size: 15px;
+  color: white;
+}
+
+/*------Після хедера------*/
+.Welcome {
+  background-color: #474F7A;
+  width: 74%;
+  align-items: center;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  padding: 7%;
+  margin: 5%;
+  border-radius: 45px;
+
+}
+
+.Welcome img {
+  width: 80%;
+  border-radius: 35px;
+}
+
+.Welcome img:hover{
+  transition: width 0.3s ease;
+  cursor: pointer;
+  content: url(https://media.giphy.com/media/zOvBKUUEERdNm/giphy.gif?cid=790b7611gp1j83963bs09hwlbplunnawvusv4i10luur5w3x&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+.Welcome img:hover{
+  width: 85%;
+}
+
+
+
+.Welcome h2 {
+  font-size: 230%;
+  color: aliceblue;
+}
+
+.Welcome p {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+
+/*------Статті------*/
+.mainText {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 2%
+
+}
+
+.article {
+  background-color: #474F7A;
+  display: flex;
+  margin: 0.5%;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  width: 49%;
+  
+}
+
+.article p {
+margin: 15px;
+justify-content: center;
+}
+.article h1 {
+  margin: 15px;
+}
+
+.article img {
+  height: 40%;
+  width: 25%;
+  margin: 3%;
+}
+
+@media(max-width:900px){
+  .article{
+    width: 100%;
+  }
+}
+
+/*------Табличка------*/
+.Stydying {
+  border-collapse: collapse;
+  width: 100%;
+  align-items: center;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+
+}
+
+/* background-color: #474F7A;
+  color: aliceblue;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 125%; */
+
+.Stydying th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;  
+  background-color: #474F7A;
+  color: aliceblue;
+  padding: 19px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+
+.Stydying td {
+  color: #474F7A;
+  
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.Stydying tr:hover{
+  background-color: #adb1c7;
+}
+
+
+/*------Футер------*/
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #81689D;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+
+.Footer p {
+  left: 0;
+  position: relative;
+}
